@@ -3,16 +3,20 @@ using System.Collections;
 
 public class TestMonsterMovement : MonoBehaviour {
 
+    //public GameObject Monsters[] = new GameObject;
     public GameObject Monster1;
     public Vector3 OriginalPlace;
     GameObject[] newMonster = new GameObject[5];
+
+    int[] health= { 2,2,2,2,2};
+
     void Start()
     {
         
         for (int i = 0; i < 5; i++)
         {
             newMonster[i] = (GameObject)Instantiate(Monster1, OriginalPlace, Quaternion.identity) as GameObject;
-
+            
             iTween.MoveTo(newMonster[i], iTween.Hash("path", iTweenPath.GetPath("MonsterPath"), "speed", 10, "delay", i, "easetype", iTween.EaseType.linear));
 
            // yield return new WaitForSeconds(5f);
@@ -23,10 +27,16 @@ public class TestMonsterMovement : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
+        
+
+
 	    for(int i = 0;i < 5; i++)
         {
             Destroyathome(newMonster[i]);
-
+            if(health[i] == 0)
+            {
+                newMonster[i].GetComponent<Renderer>().enabled = false;
+            }
         }
 	}
 
@@ -42,4 +52,7 @@ public class TestMonsterMovement : MonoBehaviour {
         }
 
     }
+
 }
+
+
