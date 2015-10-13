@@ -3,9 +3,9 @@ using System.Collections;
 
 public class towertrigger : MonoBehaviour {
 
-	// Use this for initialization
-	
-    public  GameObject tower_1;
+    // Use this for initialization
+    public GameObject moneyObject;
+    public GameObject tower_1;
     public GameObject tower_2;
     public GameObject tower_3;
     public GameObject tower_4;
@@ -21,6 +21,11 @@ public class towertrigger : MonoBehaviour {
     
     bool getbutton =false;
     // Update is called once per frame
+    void Start ()
+    {
+        //moneyObject = GetComponent<GameObject>();
+    }
+
     void Update () {
 
         
@@ -65,18 +70,20 @@ public class towertrigger : MonoBehaviour {
             else { }
                
             }
-
+            
 
         }
     void OnMouseDown()
     {
-        
+        if (moneyObject.GetComponent<PlayerMoney>().getMoney())
+        {
             fake_1 = (GameObject)Instantiate(tower_1, new Vector3(10, -12, 0), Quaternion.identity);
             fake_2 = (GameObject)Instantiate(tower_2, new Vector3(4, -12, 0), Quaternion.identity);
             fake_3 = (GameObject)Instantiate(tower_3, new Vector3(-2, -12, 0), Quaternion.identity);
             fake_4 = (GameObject)Instantiate(tower_4, new Vector3(-8, -12, 0), Quaternion.identity);
             getbutton = true;
-        
+            moneyObject.GetComponent<PlayerMoney>().substractMoney(100);
+        }
     }
 }
 

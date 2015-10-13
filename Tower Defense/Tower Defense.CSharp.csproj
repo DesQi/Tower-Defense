@@ -51,11 +51,17 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Networking">
       <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
       <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
@@ -75,8 +81,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MenuScript.cs" />
-    <Compile Include="Assets\Monsters.cs" />
     <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
+    <Compile Include="Assets\Scripts\Attack.cs" />
+    <Compile Include="Assets\Scripts\Bullet.cs" />
+    <Compile Include="Assets\Scripts\Creat_Tower.cs" />
+    <Compile Include="Assets\Scripts\Health.cs" />
+    <Compile Include="Assets\Scripts\Hometrigger.cs" />
+    <Compile Include="Assets\Scripts\MoneySystem.cs" />
+    <Compile Include="Assets\Scripts\MonkeyTower.cs" />
+    <Compile Include="Assets\Scripts\Monster.cs" />
+    <Compile Include="Assets\Scripts\PlayerMoney.cs" />
     <Compile Include="Assets\Scripts\ReachHome.cs" />
     <Compile Include="Assets\Scripts\TestMonsterMovement.cs" />
     <Compile Include="Assets\Scripts\TowerButton.cs" />
