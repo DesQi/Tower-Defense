@@ -1,6 +1,21 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Hometrigger.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Monster.cs" Line="30" Column="10" />
+      <File FileName="Assets/Scripts/Monster1.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster2.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster3.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster4.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Monster5.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/TestMonsterMovement.cs" Line="36" Column="37" />
+      <File FileName="Assets/Scripts/Attack.cs" Line="4" Column="21" />
+      <File FileName="Assets/Scripts/towertrigger.cs" Line="86" Column="10" />
+      <File FileName="Assets/MenuScript.cs" Line="7" Column="25" />
+      <File FileName="Assets/Scripts/Hometrigger.cs" Line="18" Column="18" />
+      <File FileName="Assets/Scripts/Health.cs" Line="4" Column="38" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -3,13 +3,19 @@ using System.Collections;
 
 public class TestMonsterMovement : MonoBehaviour {
 
-    //public GameObject Monsters[] = new GameObject;
+	//public GameObject Monsters[] = new GameObject;
+	public Canvas winCanvas;
     public GameObject Monster1;
     public Vector3 OriginalPlace;
     GameObject[] newMonster = new GameObject[10];
+	//Monster[] testMonster = new Monser1[10];
+	bool noWaves = false;
 
     void Start()
-    {
+	{
+		winCanvas = winCanvas.GetComponent<Canvas> ();
+		
+		winCanvas.enabled = false;
         
         for (int i = 0; i < 10; i++)
         {
@@ -21,12 +27,15 @@ public class TestMonsterMovement : MonoBehaviour {
 
         }
 
-
+		noWaves = true;
 
     }
 
 	void Update(){
 		Debug.Log (Monster.number);
+		if (Monster.number == 0 && noWaves) {
+			winCanvas.enabled = true;
+		}
 	}
 }
 
