@@ -31,7 +31,7 @@ public class towertrigger : MonoBehaviour {
         
         if (getbutton)
         {
-            if(Input.GetKey("q"))
+            if(Input.GetKey("r"))
             {
                 Instantiate(tower_1, gameObject.transform.position, Quaternion.identity);
                 Destroy(fake_1);
@@ -40,7 +40,7 @@ public class towertrigger : MonoBehaviour {
                 Destroy(fake_4);
                 getbutton = false;
             }
-            else if (Input.GetKey("w"))
+            else if (Input.GetKey("e"))
             {
                 Instantiate(tower_2, gameObject.transform.position, Quaternion.identity);
                 Destroy(fake_1);
@@ -49,7 +49,7 @@ public class towertrigger : MonoBehaviour {
                 Destroy(fake_4);
                 getbutton = false;
             }
-            else if (Input.GetKey("e"))
+            else if (Input.GetKey("w"))
             {
                 Instantiate(tower_3, gameObject.transform.position, Quaternion.identity);
                 Destroy(fake_1);
@@ -58,7 +58,7 @@ public class towertrigger : MonoBehaviour {
                 Destroy(fake_4);
                 getbutton = false;
             }
-            else if (Input.GetKey("r"))
+            else if (Input.GetKey("q"))
             {
                 Instantiate(tower_4, gameObject.transform.position, Quaternion.identity);
                 Destroy(fake_1);

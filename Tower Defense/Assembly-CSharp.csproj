@@ -49,9 +49,19 @@
      <Compile Include="Assets\Pixelplacement\iTweenPath\iTweenPath.cs" />
      <Compile Include="Assets\Scripts\Attack.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
+     <Compile Include="Assets\Scripts\CountNum.cs" />
      <Compile Include="Assets\Scripts\Creat_Tower.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\Hometrigger.cs" />
+     <Compile Include="Assets\Scripts\MoneySystem.cs" />
      <Compile Include="Assets\Scripts\MonkeyTower.cs" />
      <Compile Include="Assets\Scripts\Monster.cs" />
+     <Compile Include="Assets\Scripts\Monster1.cs" />
+     <Compile Include="Assets\Scripts\Monster2.cs" />
+     <Compile Include="Assets\Scripts\Monster3.cs" />
+     <Compile Include="Assets\Scripts\Monster4.cs" />
+     <Compile Include="Assets\Scripts\Monster5.cs" />
+     <Compile Include="Assets\Scripts\PlayerMoney.cs" />
      <Compile Include="Assets\Scripts\ReachHome.cs" />
      <Compile Include="Assets\Scripts\TestMonsterMovement.cs" />
      <Compile Include="Assets\Scripts\TowerButton.cs" />
@@ -59,17 +69,11 @@
      <Compile Include="Assets\disappear.cs" />
      <Compile Include="Assets\test.cs" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
- <Reference Include="UnityEngine.Analytics">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>/Applications/Unity/Unity.app/Contents/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>

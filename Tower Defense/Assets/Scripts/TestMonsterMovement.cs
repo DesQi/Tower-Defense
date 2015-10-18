@@ -21,9 +21,13 @@ public class TestMonsterMovement : MonoBehaviour {
 
         }
 
+
+
     }
 
-	
+	void Update(){
+		Debug.Log (Monster.number);
+	}
 }
 
 
