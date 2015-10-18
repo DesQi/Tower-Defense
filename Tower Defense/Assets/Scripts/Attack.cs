@@ -16,7 +16,7 @@ public class Attack : MonoBehaviour {
     }
 
     void Start () {
-        Debug.Log("test begin");
+        //Debug.Log("test begin");
 	}
 	
 	// Update is called once per frame

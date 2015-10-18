@@ -1,0 +1,163 @@
+fileFormatVersion: 2
+guid: be95de18917af44bc92fa53e2eff0946
+timeCreated: 1445127153
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dreamstime_m_37465579_0
+    21300002: dreamstime_m_37465579_1
+    21300004: dreamstime_m_37465579_2
+    21300006: dreamstime_m_37465579_3
+    21300008: dreamstime_m_37465579_4
+    21300010: dreamstime_m_37465579_5
+    21300012: dreamstime_m_37465579_6
+    21300014: dreamstime_m_37465579_7
+    21300016: dreamstime_m_37465579_8
+    21300018: dreamstime_m_37465579_9
+    21300020: dreamstime_m_37465579_10
+    21300022: dreamstime_m_37465579_11
+    21300024: dreamstime_m_37465579_12
+    21300026: dreamstime_m_37465579_13
+    21300028: dreamstime_m_37465579_14
+    21300030: dreamstime_m_37465579_15
+    21300032: dreamstime_m_37465579_16
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dreamstime_m_37465579_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1070
+        width: 459
+        height: 628
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1085
+        width: 589
+        height: 535
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_2
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 1081
+        width: 427
+        height: 532
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_3
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 558
+        width: 458
+        height: 460
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_4
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 535
+        width: 546
+        height: 472
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_5
+      rect:
+        serializedVersion: 2
+        x: 1224
+        y: 549
+        width: 419
+        height: 490
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 533
+        height: 474
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dreamstime_m_37465579_7
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 22
+        width: 570
+        height: 495
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 3}
+    - name: dreamstime_m_37465579_8
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 52
+        width: 419
+        height: 455
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

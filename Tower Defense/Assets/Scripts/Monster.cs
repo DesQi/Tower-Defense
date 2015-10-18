@@ -5,16 +5,23 @@ using System.Collections;
 public class Monster : MonoBehaviour {
 
     public GameObject moneyObject2;
-    float health = 5f;
-    // Use this for initialization
-    void Start ()
-    {
-        moneyObject2 = GameObject.Find("TotalMoney");
-    }
+    int health = 0;
+	int money_add = 0;
+	public static int number = -1;
+
+	public Monster(){
+		number++;
+	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Start ()
+	{
+		moneyObject2 = GameObject.Find("TotalMoney");
+
+	}
 	
+	public void changePara(int healthIn,int moneyAdd){
+		health = healthIn;
+		money_add = moneyAdd;
 	}
 
     public void decrease()
@@ -25,15 +32,13 @@ public class Monster : MonoBehaviour {
         }
         else
         {
-            
+			number--;
             iTween.Stop(gameObject);
             Destroy(gameObject);
-            moneyObject2.GetComponent<PlayerMoney>().addMoney(200);
-        }
+            moneyObject2.GetComponent<PlayerMoney>().addMoney(money_add);
+
+		}
+	
     }
 
-    public void Destroyathome(GameObject x)
-    {
-            
-    }
 }
