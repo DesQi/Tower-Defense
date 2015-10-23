@@ -9,13 +9,13 @@ public class PlayerMoney : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        money = 500;
+        money = 200;
         moneyText.text = "Money: " + money.ToString();
 	}
 	
 	// Update is called once per frame
-	void Update () {
-
+	void FixedUpdate () {
+        //Debug.Log(money);
     }
 
     public void addMoney(int moneyToAdd)
@@ -35,10 +35,11 @@ public class PlayerMoney : MonoBehaviour {
             money -= moneyToSubstract;
             moneyText.text = "Money: " + money.ToString();
         }
+        
     }
 
-    public bool getMoney()
+    public int getMoney()
     {
-        return (money > 0);
+        return money ;
     }
 }

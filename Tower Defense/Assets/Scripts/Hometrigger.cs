@@ -29,7 +29,7 @@ public class Hometrigger : MonoBehaviour {
 			}
 			else {
 				loseCanvas.enabled = true;
-				iTween.Stop();
+				//iTween.Stop();
 			}
             iTween.Stop(co.gameObject);
             Destroy(co.gameObject);

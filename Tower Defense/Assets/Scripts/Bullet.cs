@@ -2,7 +2,15 @@
 using System.Collections;
 
 public class Bullet : MonoBehaviour {
-    float speed = 40f;
+    protected float speed;
+    protected int damage;
+
+    public Bullet()
+    {
+        speed = 0;
+        damage = 0;
+    }
+
 
     public Transform target;
 	// Use this for initialization
@@ -27,9 +35,11 @@ public class Bullet : MonoBehaviour {
     void OnTriggerEnter2D(Collider2D co)
     {
         Monster monster = co.GetComponent<Monster>();
+        //Debug.Log(damage);
+        //Debug.Log(speed);
         if (monster)
         {
-            monster.decrease();
+            monster.decrease(damage);
             Destroy(gameObject);
         }
     }
